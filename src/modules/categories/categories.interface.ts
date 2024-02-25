@@ -1,0 +1,29 @@
+export default interface ICategory {
+    _id: string;
+    name: string;
+    orderNumber: number;
+    parentId: string;
+    status: string;
+    typeCode: string;
+    isPopular: boolean;
+    image: string;
+    displayType: string;
+    description: string;
+    metaTitle: string;
+    metaKey: string;
+    metaDescription: string;
+    urlName: string;
+    link: string;
+    icon: string;
+    shortDescription: string;
+    languageId: string;
+    dateCreated: Date;
+    createdBy: string;
+    dateUpdated: Date;
+    updatedBy: string;
+    isOnTop: boolean;
+    isOnRight: boolean;
+    isOnBottom: boolean;
+    isOnLeft: boolean;
+    isOnCenter: boolean;
+}
